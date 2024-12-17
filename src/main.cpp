@@ -8,11 +8,11 @@
 #include "time.h"
 #include "esp_sntp.h"
 
-const char* WIFI_SSID = "BT22"; 
-const char* WIFI_PASSWORD = "wetyio123"; 
+const char* WIFI_SSID = "WiFi ssid/name"; 
+const char* WIFI_PASSWORD = "Wifi password"; 
 
-#define API_KEY "AIzaSyAn3-oGyChuimA6mhzX-OqvWRRZ1BCTXAk" 
-#define DATABASE_URL "https://iot-based-fire-alarm-kelompok5-default-rtdb.asia-southeast1.firebasedatabase.app/" 
+#define API_KEY "" 
+#define DATABASE_URL "" 
 
 FirebaseData fbdo;
 FirebaseAuth auth;
